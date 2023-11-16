@@ -20,7 +20,7 @@ jobs:
       - name: coatl-dev-pip-compile
         uses: coatl-dev/actions/pip-compile@coatl
         with:
-          path: ${{ matrix.tool }}/requirements.txt
+          path: ${{ matrix.tool }}
           python-version: '3.11'
 
       - name: Detect changes
