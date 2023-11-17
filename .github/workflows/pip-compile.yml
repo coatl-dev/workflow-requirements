@@ -7,11 +7,7 @@ on:
 
 jobs:
   pip-compile:
-    name: pip-compile-${{ matrix.tool }}
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        tool: [pre-commit, pylint, tox]
 
     steps:
       - name: Checkout repository
@@ -20,14 +16,14 @@ jobs:
       - name: coatl-dev-pip-compile
         uses: coatl-dev/actions/pip-compile@coatl
         with:
-          path: ${{ matrix.tool }}
+          path: requirements
           python-version: '3.11'
 
       - name: Detect changes
         id: git-diff
         uses: coatl-dev/actions/simple-git-diff@coatl
         with:
-          path: ${{ matrix.tool }}/requirements.txt
+          path: requirements
 
       - name: Import GPG key
         if: ${{ success() && steps.git-diff.outputs.diff == 'true' }}
@@ -40,10 +36,10 @@ jobs:
       - name: Commit changes
         if: ${{ success() && steps.git-diff.outputs.diff == 'true' }}
         run: |
-          git checkout -B pip-compile-autoupdate-${{ matrix.tool }}
-          git add ${{ matrix.tool }}/requirements.txt
-          git commit -m "refactor(pre-commit-autpupdate): pip-compile autoupdate ${{ matrix.tool }}"
-          git push --force --set-upstream origin pip-compile-autoupdate
+          git checkout -B pip-compile-upgrade
+          git add requirements
+          git commit -m "chore: pip-compile upgrade"
+          git push --force --set-upstream origin pip-compile-upgrade
 
       - name: Create Pull Request
         if: ${{ success() && steps.git-diff.outputs.diff == 'true' }}
