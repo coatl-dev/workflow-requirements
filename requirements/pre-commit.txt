@@ -22,13 +22,7 @@ pyyaml==6.0.1
     # via pre-commit
 virtualenv==20.24.6
     # via pre-commit
-wheel==0.41.3
-    # via -r pre-commit.in
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==23.3.1
-    # via -r pre-commit.in
-setuptools==68.2.2
-    # via
-    #   -r pre-commit.in
-    #   nodeenv
+setuptools==69.0.2
+    # via nodeenv
