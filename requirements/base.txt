@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe base.in
 #
-wheel==0.41.3
+wheel==0.42.0
     # via -r base.in
 
 # The following packages are considered to be unsafe in a requirements file:
