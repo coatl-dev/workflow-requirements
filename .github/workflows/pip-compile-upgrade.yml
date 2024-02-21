@@ -16,7 +16,7 @@ jobs:
         id: pip-compile
         uses: coatl-dev/actions/pip-compile@v2
         with:
-          path: requiremens
+          path: requirements
           python-version: '3.12'
 
       - name: Detect changes
