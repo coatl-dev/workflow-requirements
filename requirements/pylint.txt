@@ -16,5 +16,5 @@ platformdirs==4.2.0
     # via pylint
 pylint==3.1.0
     # via -r pylint.in
-tomlkit==0.12.3
+tomlkit==0.12.4
     # via pylint
