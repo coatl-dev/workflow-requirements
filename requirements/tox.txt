@@ -28,7 +28,7 @@ pluggy==1.4.0
     # via tox
 pyproject-api==1.6.1
     # via tox
-tox==4.14.1
+tox==4.14.2
     # via -r tox.in
 virtualenv==20.25.1
     # via tox
