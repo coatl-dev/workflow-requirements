@@ -4,7 +4,7 @@
 #
 #    pip-compile pylint.in
 #
-astroid==3.2.2
+astroid==3.2.3
     # via pylint
 dill==0.3.8
     # via pylint
@@ -16,5 +16,5 @@ platformdirs==4.2.2
     # via pylint
 pylint==3.2.5
     # via -r pylint.in
-tomlkit==0.12.5
+tomlkit==0.13.0
     # via pylint
