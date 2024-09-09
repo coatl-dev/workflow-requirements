@@ -12,7 +12,7 @@ isort==5.13.2
     # via pylint
 mccabe==0.7.0
     # via pylint
-platformdirs==4.2.2
+platformdirs==4.3.2
     # via pylint
 pylint==3.2.7
     # via -r pylint.in
