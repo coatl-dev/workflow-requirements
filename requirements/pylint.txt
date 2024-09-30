@@ -4,9 +4,9 @@
 #
 #    pip-compile pylint.in
 #
-astroid==3.3.3
+astroid==3.3.4
     # via pylint
-dill==0.3.8
+dill==0.3.9
     # via pylint
 isort==5.13.2
     # via pylint
@@ -14,7 +14,7 @@ mccabe==0.7.0
     # via pylint
 platformdirs==4.3.6
     # via pylint
-pylint==3.3.0
+pylint==3.3.1
     # via -r pylint.in
 tomlkit==0.13.2
     # via pylint
