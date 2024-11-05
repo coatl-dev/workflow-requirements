@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Run pip-sync
+      - name: Dry run pip install
         shell: bash
         working-directory: requirements
         run: |
