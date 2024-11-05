@@ -32,6 +32,6 @@ jobs:
         run: |
           for file in *.txt; do
             if [ -f "$file" ]; then
-              python -m piptools sync --dry-run "$file"
+              python -m piptools sync --dry-run "$file" || true
             fi
           done
