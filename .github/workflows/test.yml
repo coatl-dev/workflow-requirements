@@ -21,7 +21,12 @@ jobs:
         id: setup-python
         with:
           python-version: '3.13'
-          cache: 'pip'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ steps.setup-python.outputs.python-version }}-${{ runner.os }}-${{ hashFiles('requirements/**') }}
 
       - name: Dry run pip install
         shell: bash
