@@ -4,7 +4,7 @@
 #
 #    pip-compile commitizen.in
 #
-argcomplete==3.5.2
+argcomplete==3.5.3
     # via commitizen
 charset-normalizer==3.4.1
     # via commitizen
