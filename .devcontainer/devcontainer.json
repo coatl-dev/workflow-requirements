@@ -1,5 +1,5 @@
 {
-  "name": "devpi",
+  "name": "requirements",
   "image": "coatldev/python:3.13",
   "containerEnv": {
     "LC_ALL": "C"
