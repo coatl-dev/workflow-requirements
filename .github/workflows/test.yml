@@ -5,8 +5,8 @@ on:
     branches:
       - coatl
     paths:
-      - '.github/workflows/test.yml'
-      - 'requirements/**'
+      - .github/workflows/test.yml
+      - requirements/**
 
 jobs:
   test:
