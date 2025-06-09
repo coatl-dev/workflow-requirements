@@ -24,7 +24,7 @@ questionary==2.1.0
     # via commitizen
 termcolor==2.5.0
     # via commitizen
-tomlkit==0.13.2
+tomlkit==0.13.3
     # via commitizen
 wcwidth==0.2.13
     # via prompt-toolkit
