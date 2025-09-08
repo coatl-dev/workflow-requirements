@@ -6,11 +6,9 @@ charset-normalizer==3.4.3
     # via commitizen
 colorama==0.4.6
     # via commitizen
-commitizen==4.8.3
+commitizen==4.8.4
     # via -r commitizen.in
 decli==0.6.3
-    # via commitizen
-importlib-metadata==8.7.0
     # via commitizen
 jinja2==3.1.6
     # via commitizen
@@ -18,8 +16,10 @@ markupsafe==3.0.2
     # via jinja2
 packaging==25.0
     # via commitizen
-prompt-toolkit==3.0.52
-    # via questionary
+prompt-toolkit==3.0.51
+    # via
+    #   commitizen
+    #   questionary
 pyyaml==6.0.2
     # via commitizen
 questionary==2.1.1
@@ -30,5 +30,3 @@ tomlkit==0.13.3
     # via commitizen
 wcwidth==0.2.13
     # via prompt-toolkit
-zipp==3.23.0
-    # via importlib-metadata
