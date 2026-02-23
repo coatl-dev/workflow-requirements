@@ -4,13 +4,13 @@ astroid==4.0.4
     # via pylint
 dill==0.4.1
     # via pylint
-isort==7.0.0
+isort==8.0.0
     # via pylint
 mccabe==0.7.0
     # via pylint
 platformdirs==4.9.2
     # via pylint
-pylint==4.0.4
+pylint==4.0.5
     # via -r pylint.in
 tomlkit==0.14.0
     # via pylint
