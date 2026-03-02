@@ -6,7 +6,7 @@ charset-normalizer==3.4.4
     # via commitizen
 colorama==0.4.6
     # via commitizen
-commitizen==4.13.8
+commitizen==4.13.9
     # via -r commitizen.in
 decli==0.6.3
     # via commitizen
