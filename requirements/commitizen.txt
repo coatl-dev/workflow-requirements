@@ -2,7 +2,7 @@
 #    uv pip compile --output-file commitizen.txt commitizen.in
 argcomplete==3.6.3
     # via commitizen
-charset-normalizer==3.4.4
+charset-normalizer==3.4.5
     # via commitizen
 colorama==0.4.6
     # via commitizen
@@ -32,5 +32,5 @@ tomlkit==0.14.0
     # via commitizen
 wcwidth==0.6.0
     # via prompt-toolkit
-wrapt==2.1.1
+wrapt==2.1.2
     # via deprecated
