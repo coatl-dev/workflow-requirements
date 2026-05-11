@@ -6,7 +6,7 @@ charset-normalizer==3.4.7
     # via commitizen
 colorama==0.4.6
     # via commitizen
-commitizen==4.15.0
+commitizen==4.15.1
     # via -r commitizen.in
 decli==0.6.3
     # via commitizen
@@ -28,7 +28,7 @@ questionary==2.1.1
     # via commitizen
 termcolor==3.3.0
     # via commitizen
-tomlkit==0.14.0
+tomlkit==0.15.0
     # via commitizen
 wcwidth==0.7.0
     # via prompt-toolkit
