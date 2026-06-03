@@ -4,7 +4,7 @@ cachetools==7.1.4
     # via tox
 colorama==0.4.6
     # via tox
-distlib==0.4.0
+distlib==0.4.1
     # via virtualenv
 filelock==3.29.0
     # via
