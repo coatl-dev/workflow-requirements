@@ -1,0 +1,4 @@
+[pip]
+no-strip-extras = true
+python-platform = "x86_64-unknown-linux-gnu"
+generate-hashes = true
