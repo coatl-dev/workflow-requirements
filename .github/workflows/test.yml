@@ -14,11 +14,13 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@v7.0.1
 
       - name: Set up Python
-        uses: actions/setup-python@v7
+        uses: actions/setup-python@v7.0.0
         id: setup-python
+        with:
+          python-version: '3.14'
 
       - name: Dry run pip install
         shell: bash
